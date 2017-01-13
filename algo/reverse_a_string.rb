@@ -3,7 +3,12 @@
 # comes with Ruby!
 
 def reverse_a_string(string)
-
+  array = string.chars
+  array2 = []
+  array.each do |character|
+    array2.insert(0,character)
+  end
+  array2.join
 end
 
 # Driver code - don't touch anything below this line.
