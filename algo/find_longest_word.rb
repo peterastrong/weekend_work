@@ -4,9 +4,6 @@ def find_longest_word(sentence)
   sentence.scan(/\w+/).sort_by!{ |word| -word.length}[0] 
 end
 
-
-
-
 # Driver code - don't touch anything below this line.
 puts "TESTING find_longest_word..."
 puts
